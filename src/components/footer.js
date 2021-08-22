@@ -43,18 +43,18 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-row mt-4 gap-8 items-center justify-center">
-          <a href="#" className="text-sm mt-2 mx-10">
+          <Link to={ROUTES.ABOUT} className="text-sm mt-2 mx-10">
             About
-          </a>
-          <a href="#" className="text-sm mt-2 mx-10">
+          </Link>
+          <Link to={ROUTES.CONTACT} className="text-sm mt-2 mx-10">
             FAQ
-          </a>
-          <a href="#" className="text-sm mt-2 mx-10">
+          </Link>
+          <Link to={ROUTES.HOME} className="text-sm mt-2 mx-10">
             Privacy and Policy
-          </a>
-          <a href="#" className="text-sm mt-2 mx-10">
+          </Link>
+          <Link to={ROUTES.HOME} className="text-sm mt-2 mx-10">
             Terms and Conditions
-          </a>
+          </Link>
         </div>
       </div>
     </div>
